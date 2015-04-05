@@ -46,8 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CharacterMotor.cs" />
-     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Scripts\CharacterControlling\CharacterMotor.cs" />
+     <Compile Include="Assets\Scripts\CharacterControlling\MouseFollow.cs" />
+     <Compile Include="Assets\Scripts\CharacterControlling\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\CharacterControlling\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Scripts\CombatAndInteractions\HealthController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
