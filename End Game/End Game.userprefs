@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CharacterControlling\ThirdPersonCamera.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CharacterControlling\CharacterMotor.cs">
     <Files>
-      <File FileName="Assets\Scripts\CharacterControlling\MouseLook.cs" Line="24" Column="26" />
-      <File FileName="Assets\Scripts\CharacterControlling\CharacterMotor.cs" Line="84" Column="2" />
-      <File FileName="Assets\Scripts\CharacterControlling\ThirdPersonCamera.cs" Line="25" Column="2" />
+      <File FileName="Assets\Scripts\CharacterControlling\CharacterMotor.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CharacterControlling\MouseLook.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CharacterControlling\ThirdPersonCamera.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

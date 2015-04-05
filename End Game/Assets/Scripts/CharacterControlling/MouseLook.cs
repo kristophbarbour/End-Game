@@ -11,9 +11,13 @@ public class MouseLook:MonoBehaviour
 	public bool smooth;
 	public float smoothTime = 5f;
 
+	public GameObject target;
+
 	void Start ()
 	{
-
+		if (target == null) {
+			target = GameObject.FindWithTag ("MyPlayer");
+		}
 	}
 
 	void Update ()

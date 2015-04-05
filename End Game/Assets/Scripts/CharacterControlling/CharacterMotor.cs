@@ -62,6 +62,13 @@ public class CharacterMotor : MonoBehaviour
 			}
 		}
 		
+		// Set Animator Parameters
+		anim.SetFloat ("Velocity", v);
+		anim.SetFloat ("Strafing", h);
+		anim.SetBool ("Idle", Idle ());
+		anim.SetFloat ("JumpHeight", vSpeed);
+		anim.SetBool ("JumpingBool", !cc.isGrounded);
+		
 		// Move Character
 		targetDirection = (h * right) + (v * forward); // Convert to int
 		moveDirection = targetDirection.normalized * moveSpeed;
@@ -69,9 +76,10 @@ public class CharacterMotor : MonoBehaviour
 		vSpeed -= gravity * Time.deltaTime;
 		moveDirection.y = vSpeed;
 		// Move Character if there is input
-		if (!Idle ()) {
+		if (!Idle () || vSpeed > 0) {
 			cc.Move (moveDirection * Time.deltaTime);
 		}
+
 
 		RotateCharacter ();
 
@@ -79,7 +87,7 @@ public class CharacterMotor : MonoBehaviour
 
 	public bool Idle ()
 	{
-		return Input.GetAxisRaw ("Horizontal") == 0 && Input.GetAxisRaw ("Vertical") == 0 && vSpeed == 0;
+		return Input.GetAxisRaw ("Horizontal") == 0 && Input.GetAxisRaw ("Vertical") == 0 && cc.isGrounded;
 	}
 
 	void RotateCharacter ()
