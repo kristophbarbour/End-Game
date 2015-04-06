@@ -8,7 +8,7 @@ public class CharacterMotor : MonoBehaviour
 	private float v;
 
 	private float mx;
-	private float my;
+
 
 	private CharacterController cc;
 	private Animator anim;
@@ -46,7 +46,6 @@ public class CharacterMotor : MonoBehaviour
 		v = Input.GetAxis ("Vertical");
 		// Get mouse input
 		mx = Input.GetAxis ("Mouse X");
-		my = Input.GetAxis ("Mouse Y");
 
 		// Get Characters forward position
 		Vector3 forward = transform.TransformDirection (Vector3.forward);
