@@ -82,7 +82,11 @@
      <Compile Include="Assets\RootMotion\Scripts\Editor\CommentsInspector.cs" />
      <Compile Include="Assets\RootMotion\Scripts\Editor\Inspector.cs" />
      <Compile Include="Assets\RootMotion\Scripts\Editor\SerializedContent.cs" />
+     <None Include="Assets\CustomizableGun_FreeED\readme.txt" />
      <None Include="Assets\readme.txt" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>D:/EndGame Git/End-Game/End Game/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

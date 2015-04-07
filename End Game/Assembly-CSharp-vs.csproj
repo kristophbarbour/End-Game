@@ -51,6 +51,7 @@
      <Compile Include="Assets\FinalIK OVR\Scripts\Phone.cs" />
      <Compile Include="Assets\FinalIK OVR\Scripts\WeaponBase.cs" />
      <Compile Include="Assets\FinalIK OVR\Scripts\WeaponRifle.cs" />
+     <Compile Include="Assets\HoldWeapon.cs" />
      <Compile Include="Assets\RootMotion\FinalIK\BipedIK\BipedIK.cs" />
      <Compile Include="Assets\RootMotion\FinalIK\BipedIK\BipedIKSolvers.cs" />
      <Compile Include="Assets\RootMotion\FinalIK\Constraints\Constraint.cs" />
@@ -192,6 +193,7 @@
      <Compile Include="Assets\Scripts\CharacterControlling\MouseFollow.cs" />
      <Compile Include="Assets\Scripts\CharacterControlling\ThirdPersonCamera.cs" />
      <Compile Include="Assets\Scripts\CombatAndInteractions\HealthController.cs" />
+     <None Include="Assets\CustomizableGun_FreeED\readme.txt" />
      <None Include="Assets\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

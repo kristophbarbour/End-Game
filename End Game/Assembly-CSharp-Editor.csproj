@@ -82,6 +82,7 @@
      <Compile Include="Assets\RootMotion\Scripts\Editor\CommentsInspector.cs" />
      <Compile Include="Assets\RootMotion\Scripts\Editor\Inspector.cs" />
      <Compile Include="Assets\RootMotion\Scripts\Editor\SerializedContent.cs" />
+     <None Include="Assets\CustomizableGun_FreeED\readme.txt" />
      <None Include="Assets\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -126,6 +127,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{3C4541E0-DCE0-EA2E-A5C4-F5486DFCFE87}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{C0C7F953-18AE-A89F-5BB5-5BDD6F290C33}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
